@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "sharp-rn-interview",
+    "slug": "sharp-rn-interview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2b969cc9-9c7d-4c2e-9c68-79708ed4e5a3"
+      },
+      "baseURL": "http://65.21.61.26:5555",
+      "apiURL": "http://65.21.61.26:5555/api"
+    },
+    "owner": "damirn"
+  }
+}

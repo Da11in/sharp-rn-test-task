@@ -1,0 +1,1 @@
+export { getMediaPath } from "./getMediaPath";
